@@ -579,8 +579,11 @@ video {
 }
 
 *{
-  border: 1px solid re;
   font-family: 'PT Serif', serif;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 .circle.percentage-100 .percentage-bar:after, .circle.percentage-99 .percentage-bar:after, .circle.percentage-98 .percentage-bar:after, .circle.percentage-97 .percentage-bar:after, .circle.percentage-96 .percentage-bar:after, .circle.percentage-95 .percentage-bar:after, .circle.percentage-94 .percentage-bar:after, .circle.percentage-93 .percentage-bar:after, .circle.percentage-92 .percentage-bar:after, .circle.percentage-91 .percentage-bar:after, .circle.percentage-90 .percentage-bar:after, .circle.percentage-89 .percentage-bar:after, .circle.percentage-88 .percentage-bar:after, .circle.percentage-87 .percentage-bar:after, .circle.percentage-86 .percentage-bar:after, .circle.percentage-85 .percentage-bar:after, .circle.percentage-84 .percentage-bar:after, .circle.percentage-83 .percentage-bar:after, .circle.percentage-82 .percentage-bar:after, .circle.percentage-81 .percentage-bar:after, .circle.percentage-80 .percentage-bar:after, .circle.percentage-79 .percentage-bar:after, .circle.percentage-78 .percentage-bar:after, .circle.percentage-77 .percentage-bar:after, .circle.percentage-76 .percentage-bar:after, .circle.percentage-75 .percentage-bar:after, .circle.percentage-74 .percentage-bar:after, .circle.percentage-73 .percentage-bar:after, .circle.percentage-72 .percentage-bar:after, .circle.percentage-71 .percentage-bar:after, .circle.percentage-70 .percentage-bar:after, .circle.percentage-69 .percentage-bar:after, .circle.percentage-68 .percentage-bar:after, .circle.percentage-67 .percentage-bar:after, .circle.percentage-66 .percentage-bar:after, .circle.percentage-65 .percentage-bar:after, .circle.percentage-64 .percentage-bar:after, .circle.percentage-63 .percentage-bar:after, .circle.percentage-62 .percentage-bar:after, .circle.percentage-61 .percentage-bar:after, .circle.percentage-60 .percentage-bar:after, .circle.percentage-59 .percentage-bar:after, .circle.percentage-58 .percentage-bar:after, .circle.percentage-57 .percentage-bar:after, .circle.percentage-56 .percentage-bar:after, .circle.percentage-55 .percentage-bar:after, .circle.percentage-54 .percentage-bar:after, .circle.percentage-53 .percentage-bar:after, .circle.percentage-52 .percentage-bar:after, .circle.percentage-51 .percentage-bar:after {
@@ -1334,17 +1337,13 @@ video {
   height: 0.5rem;
 }
 
-.min-h-44 {
-  min-height: 11rem;
+.min-h-40 {
+  min-height: 10rem;
 }
 
 .min-h-max {
   min-height: -moz-max-content;
   min-height: max-content;
-}
-
-.min-h-40 {
-  min-height: 10rem;
 }
 
 .w-1 {

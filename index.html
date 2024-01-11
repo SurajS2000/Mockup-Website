@@ -11,11 +11,11 @@
       class="fixed bottom-0 w-full p-5 flex flex-col bg-white z-10 md:hidden"
     >
       <ul class="flex justify-between">
-        <li class="p-2 rounded-lg hover:bg-indigo-600 hover:text-white"><i class="fa-solid fa-house"></i></li>
-        <li class="p-2 rounded-lg hover:bg-indigo-600 hover:text-white"><i class="fa-solid fa-list"></i></li>
-        <li class="p-2 rounded-lg hover:bg-indigo-600 hover:text-white"><i class="fa-regular fa-rectangle-list"></i></li>
-        <li class="p-2 rounded-lg hover:bg-indigo-600 hover:text-white"><i class="fa-regular fa-user"></i></li>
-        <li class="p-2 rounded-lg hover:bg-indigo-600 hover:text-white"><i class="fa-solid fa-magnifying-glass"></i></li>
+        <li><a class="p-2 rounded-lg hover:bg-indigo-600 hover:text-white" href="#home"><i class="fa-solid fa-house"></i></a></li>
+        <li><a class="p-2 rounded-lg hover:bg-indigo-600 hover:text-white" href="#inc"><i class="fa-solid fa-list"></i></a></li>
+        <li><a class="p-2 rounded-lg hover:bg-indigo-600 hover:text-white" href="#stra"><i class="fa-regular fa-rectangle-list"></i></a></li>
+        <li><a class="p-2 rounded-lg hover:bg-indigo-600 hover:text-white" href=""><i class="fa-regular fa-user"></i></a></li>
+        <li><a class="p-2 rounded-lg hover:bg-indigo-600 hover:text-white" href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
       </ul>
     </div>
     <div class="p-6 flex flex-col w-screen md:flex-row md:justify-between">
@@ -57,7 +57,7 @@
           <i class="fa-regular fa-bell"></i>
         </div>
       </div>
-      <div class="rounded-lg sm:px-16 sm:py-8 sm:bg-slate-50 sm:-ml-20">
+      <section id="home" class="rounded-lg sm:px-16 sm:py-8 sm:bg-slate-50 sm:-ml-20">
         <div class="py-10 flex items-center gap-3">
           <img class="rounded-full w-20" src="/images/deadpool2.jpg" alt="" />
           <div>
@@ -98,8 +98,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="py-10">
+      </section>
+      <section id="inc" class="py-10">
         <p class="text-lg text-violet-600 font-semibold">Retirement Income</p>
         <p class="text-xl font-bold">Starting Year 2056</p>
         <div class="sm:flex sm:gap-10">
@@ -193,8 +193,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="pb-14 sm:pt-8 sm:pr-10 md:pb-0 md:pr-20">
+      </section>
+      <section id="stra" class="pb-14 sm:pt-8 sm:pr-10 md:pb-0 md:pr-20">
         <div class="rounded-xl sm:bg-slate-50 sm:p-10">
           <p class="text-xl font-bold">Retirement Strategy</p>
           <label class="mt-7">Employee Contribution</label>
@@ -228,7 +228,7 @@
           <p class="text-gray-500">Limited time reduced interest</p>
           <a class="my-2 text-indigo-500" href="">Learn More ></a>
         </div>
-      </div>
+      </section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script
